@@ -1,0 +1,10 @@
+{
+  "name": "gitlab-webhook-proxy",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "sh ./node_modules/vertx3-full/vertx/bin/vertx run webhook-proxy.groovy"
+  },
+  "dependencies": {
+    "vertx3-full": "3.3.0"
+  }
+}
