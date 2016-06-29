@@ -8,7 +8,7 @@ For now, only works with push webhook and specific commit message
 # Run the proxy server
 First time
 ```sh
-$ git clone git@github.com:lowik/gitlab-webhook-proxy.git
+$ clone https://github.com/lowik/gitlab-webhook-proxy.git
 $ npm i
 ```
 
