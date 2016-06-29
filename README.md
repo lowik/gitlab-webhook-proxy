@@ -6,8 +6,16 @@ For now, only works with push webhook and specific commit message
 
 
 # Run the proxy server
+First time
+```sh
+$ git clone git@github.com:lowik/gitlab-webhook-proxy.git
+$ npm i
+```
 
-Before running, set the target host and other variables in webhook-proxy.groovy
+Set the target host and other variables in webhook-proxy.groovy
+
+Then, just start
+
 ```sh
 $ npm start
 ```
